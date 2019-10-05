@@ -1,5 +1,4 @@
 /* Layout Styling */
-
 html,
 body {
   height: 100%;
@@ -7,7 +6,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  overflow: scroll;
+  overflow: hidden;
   overflow-x: hidden;
 }
 
@@ -63,10 +62,24 @@ small {
   font-family: 'Roboto', sans-serif;
 }
 
-.link {
+.credits {
   color: #1EC503;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.link {
+  transition: 1s;
+	letter-spacing: 0px;
+  color: #1EC503;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link:hover {
+  cursor: pointer;
+	transition: 1s;
+	letter-spacing: 2px;
 }
 
 .projectlink,
