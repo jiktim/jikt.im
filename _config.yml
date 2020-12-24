@@ -2,7 +2,7 @@ title: jikt.im
 description: Stupid people writing stupid articles about stupid things.
 permalink: /blog/:year/:title/
 url: https://jikt.im
-logo: /assets/img/favicon.png
+logo: /assets/img/logo.png
 
 collections:
   - members
