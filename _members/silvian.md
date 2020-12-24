@@ -1,5 +1,5 @@
 ---
 name: silvian
-bio: yet another professional romanian
+bio: your ordinary useless romanian human being
 link: https://twitter.com/silviangamerytb
 ---
