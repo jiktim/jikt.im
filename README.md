@@ -1,10 +1,25 @@
-# [jikt.im][1]
+# [jikt.im][jikt.im]
 
-This is a website for our projects & members. It's simple and it "works"
+Jiktim's offical website and blog, powered by [Jekyll][jekyll].
 
-## Usage
+# Running
 
-This repo is licensed under the GNU GPL v3 (except for the voteresolved file). More info can be found in the [License File][2].
+If you're going to fork the site and host it yourself, [GitHub pages][github-pages] works perfectly fine.
 
-[1]: https://jikt.im "Website"
-[2]: LICENSE "LICENSE"
+- Be sure you have [Ruby][ruby] installed and configured
+- `gem install bundler`
+- `bundler`
+- `bundler exec jekyll serve`
+- Navigate to http://localhost:4000
+- ???
+- Profit
+
+# License
+
+[MIT][license]
+
+[github-pages]: https://pages.github.com/ "GitHub pages lets you host directly from your GitHub repository"
+[jekyll]: https://jekyllrb.com "Jekyll is a static site generator"
+[ruby]: https://www.ruby-lang.org/en/documentation/installation/ "Guide on how to install Ruby"
+[jikt.im]: https://jikt.im "Hyperlink to jikt.im"
+[license]: LICENSE "Licensed under the MIT license"

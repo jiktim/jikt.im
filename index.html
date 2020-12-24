@@ -1,8 +1,65 @@
-<style>
-body {
-  background-color: black;
-}
-</style>
-<div style="display:flex;justify-content:center;align-items:center;">
-<img src="https://i.imgur.com/EHeao5m.png" height=469 width=833>
+---
+layout: default
+title: Home
+description: Stupid people making stupid software.
+---
+
+<header id="main">
+  <h1>jiktim</h1>
+
+  <div class="icons">
+    <a href="https://twitter.com/jiktim_" title="Twitter: @jiktim_">
+      <em class="fab fa-twitter"></em>
+    </a>
+    <a href="https://github.com/jiktim" title="GitHub: @jiktim">
+      <em class="fab fa-github"></em>
+    </a>
+  </div>
+</header>
+
+<div id="posts">
+  <h2>
+    jikblog
+    <a href="/feed.xml" title="RSS Feed">
+      <em class="fa-xs fas fa-rss"></em>
+    </a>
+  </h2>
+
+  <hr />
+  {% for post in site.posts limit: 5 %}
+  <h3>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <small class="post-date">{{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</small>
+  </h3>
+
+  <p class="subtitle">{{ post.description }}</p>
+  {% endfor %}
+
+  {% if site.posts.size > 5 %}
+  <small><a href="/blog/" title="jikblog"> all posts</a>
+  {% endif %}
+</div>
+
+<div id="about">
+  <h2>jikinfo</h2>
+  <hr />
+  <p>
+    founded in 2016, jiktim is a collective (group) of developers from around the world. we specialize in writing software, utilities, and
+    apps of varying degrees of usefuless.
+  </p>
+  <p>
+    jiktim is not your everyday group of white european males writing software. we are jiktim. jiktim never dies. jiktim isn't a disposable
+    group like all that's tried to be like us.
+  </p>
+  <p>jiktim is the best hacker group around. jiktim 2016 2017 2018 2019 2020 2021.</p>
+</div>
+
+<div id="projects">
+  <h2>jikmembers</h2>
+  <hr />
+  <ul>
+    {% for member in site.members %}
+    <li><a href="{{ member.link }}">{{ member.name }}</a>: {{ member.bio }}</li>
+    {% endfor %}
+  </ul>
 </div>
