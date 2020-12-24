@@ -1,6 +1,6 @@
 # [jikt.im][jikt.im]
 
-Jiktim's offical website and blog, powered by [Jekyll][jekyll].
+Jiktim's official website and blog, powered by [Jekyll][jekyll].
 
 # Running
 
