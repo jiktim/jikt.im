@@ -10,6 +10,6 @@ sitemap: false
 
 The Twitter gods have unbanned us after we dare say that one of our members tested positive for a very contagious and uncool virus.
 
-[follow][twitter]
+[follow JIKTWITTER][twitter]
 
-[twitter]: "https://twitter.com/jiktim_" "JIK TWITTER"
+[twitter]: https://twitter.com/jiktim_ "JIK TWITTER"
