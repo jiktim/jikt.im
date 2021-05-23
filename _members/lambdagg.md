@@ -1,5 +1,5 @@
 ---
 name: lambdagg
-bio: all we know is they make computer code
+bio: all we know is that they write computer code
 link: https://lambdagg.xyz/
 ---
