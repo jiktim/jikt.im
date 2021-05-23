@@ -28,7 +28,6 @@ exclude:
   - .gitignore
   - .gitattributes
   - .prettierrc
-  - .prettierignore
   - CNAME
   - Gemfile
   - Gemfile.lock

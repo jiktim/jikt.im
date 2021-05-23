@@ -1,5 +1,5 @@
 ---
-name: espi
-bio: developer; co-owner; keeps the lights on
+name: sysdotini
+bio: i keeps the lights on in this shithole
 link: https://espi.me
 ---

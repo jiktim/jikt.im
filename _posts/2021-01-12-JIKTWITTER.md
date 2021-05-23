@@ -1,7 +1,7 @@
 ---
 title: JIKTWITTER
 description: JIKTWITTER IS BACK
-author: Espi <espi@riseup.net>
+author: sysdotini <espi@riseup.net>
 layout: post
 sitemap: false
 ---
