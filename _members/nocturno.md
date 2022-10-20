@@ -1,5 +1,5 @@
 ---
 name: andrei
-bio: professional romanian. c# good, java bad
+bio: professional idiot. c# good, java bad
 link: https://github.com/botoaca
 ---
