@@ -1,5 +1,5 @@
 ---
 name: pihnea
 bio: professional romanian. formerly andrei
-link: https://twitter.com/pihnnea
+link: https://botoaca.github.io/index.html
 ---
